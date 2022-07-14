@@ -40,7 +40,8 @@ header ul li a{
 .banner-text p{
     font-family: "lato";
     font-weight: 600;
-    border: dashed 1px black;
+    border: dashed 1px #3d2514;
+    box-shadow: -2px -2px #3d2514;
     padding: 10px;
     font-size: 15px;
     text-align: center;
@@ -54,8 +55,12 @@ header ul li a{
 #banner-content img{
     width: 40%;
 }
+.try{
+    height: 100vh;
+}
 .try img{
     width: 100%;
+    height: 110%;
 }
 .tasty{
     text-align: center;
@@ -77,6 +82,8 @@ header ul li a{
     color: #3d2514;
 }
 .tasty p{
+    font-size: 20px;
+    font-weight: 400;
     color: #3d2514;
 }
 .burger{
