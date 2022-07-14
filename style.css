@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+head{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+#banner{
+    background-color: #ffc657;
+    background-position: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+} 
+header ul li{
+    display: inline;
+    padding: 25px;
+}
+header ul li a{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3d2514;
+}
+#banner-content{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-text{
+    width: 20%;
+    padding-top: 10%;
+    text-align: justify;
+}
+.banner-text p{
+    font-family: "lato";
+    font-weight: 600;
+    border: dashed 1px black;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.banner-text h1{
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 100px;
+    color: #3d2514;
+}
+#banner-content img{
+    width: 40%;
+}
+.try img{
+    width: 100%;
+}
+.tasty{
+    text-align: center;
+    height: 40vh;
+    
+}
+#always{
+    border: solid 1px #ffc045;
+    padding: 15px;
+    background-color: #ffc045;
+    font-weight: 600;
+    color: #3d2514;
+}
+.tasty h2{
+    padding: 20px;
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 50px;
+    color: #3d2514;
+}
+.tasty p{
+    color: #3d2514;
+}
+.burger{
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.burger img{
+    width: 100%;
+}
+.burger h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #3d2514;
+    padding-bottom: 20px;
+}
+.button a{
+    text-decoration: none;
+    border: solid 1px #bf2222;
+    background-color: #bf2222;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
