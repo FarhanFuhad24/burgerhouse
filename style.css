@@ -68,6 +68,8 @@ header ul li a{
     
 }
 #always{
+    font-family: "lato";
+    text-transform: uppercase;
     border: solid 1px #ffc045;
     padding: 15px;
     background-color: #ffc045;
@@ -82,9 +84,13 @@ header ul li a{
     color: #3d2514;
 }
 .tasty p{
+    font-family: "lato";
     font-size: 20px;
     font-weight: 400;
     color: #3d2514;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .burger{
     display: flex;
