@@ -193,13 +193,12 @@ input[type=submit] {
 }
 footer{
     background-image: url(images/burger-with.png);
-    opacity: 0.8;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
     padding: 2%;
-}       
+}      
 .footer-start{
     display: flex;
     padding: 20px;
