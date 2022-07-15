@@ -113,6 +113,108 @@ header ul li a{
     color: white;
     padding: 10px 20px;
     font-size: 18px;
-    font-weight: 400;
-    
+    font-weight: 400; 
 }
+.booking-form{
+    text-align: center;
+    background-image: url(images/burger-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    padding: 8% 10%;
+}
+.booking-form h2{
+    color: black;
+    font-family: "Lato";
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 50px;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.541);
+    ;
+    padding: 5% 10%;
+}
+input[type=text],
+select{
+    width: 60%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 2px solid #3d2514;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    background: transparent;
+}
+input[type=email],
+select{
+    width: 60%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 2px solid #3d2514;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    background: transparent;
+}
+input[type=date],
+select{
+    width: 60%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 2px solid #3d2514;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    background: transparent;
+}
+input[type=time],
+select{
+    width: 60%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: 2px solid #3d2514;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    background: transparent;
+}
+input[type=submit] {
+    width: 60%;
+    background-color: #bf2222;
+    color: white;
+    padding: 20px 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+footer{
+    background-image: url(images/burger-with.png);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2%;
+}       
+.footer-start{
+    display: flex;
+    padding: 20px;
+}   
+.footer-start p{
+    font-family: "lato";
+    font-weight: 500;
+    color: #ffc045;
+    width: 50%;
+    padding: 20px;
+}
+.footer-end{
+    font-family: "lato";
+    font-weight: 400;
+    color: #ffc045;
+    width: 50%;
+    padding: 20px;
+}  
