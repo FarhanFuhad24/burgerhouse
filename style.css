@@ -117,7 +117,7 @@ header ul li a{
 }
 .booking-form{
     text-align: center;
-    background-image: url(images/burger-bg.png);
+    background-image: url(images/burger-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,7 +125,7 @@ header ul li a{
     padding: 8% 10%;
 }
 .booking-form h2{
-    color: black;
+    color: white;
     font-family: "Lato";
     text-align: center;
     font-size: 2.5rem;
